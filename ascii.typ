@@ -1,3 +1,5 @@
+#let version = "v2023-07-15-0"
+
 #set page(
     paper: "a4",
     margin: (x: 0.4cm, y: 1.5cm),
@@ -9,15 +11,14 @@
     ),
     footer: text(
         fill: rgb("#777"),
-        [Source code for this document is available on Github: https://github.com/andriamanitra/cheats]
+        [Source code for this document is available on Github: https://github.com/andriamanitra/cheats
+         #h(1fr) #version]
     )
 )
 
 #set text(
     size: 7pt,
-    font: (
-        "DejaVu Sans Mono",
-    )
+    font: ("DejaVu Sans Mono")
 )
 
 #show link: underline
